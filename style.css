@@ -1,0 +1,250 @@
+@font-face {
+	font-family: 'FuturaPT';
+	src: url('fonts/FuturaPT-Bold.eot');
+	src: local('вє'), url('fonts/FuturaPT-Bold.woff') format('woff'), url('fonts/FuturaPT-Bold.ttf') format('truetype'), url('fonts/FuturaPT-Bold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+body{
+    
+    padding: 30px 500px;
+
+}
+
+.block{
+    background: rgba(246, 145, 4, 0.918);
+    border-radius: 40px;
+    height: 605px;
+    
+    
+    
+}
+.button{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom:40px;
+    
+}
+
+
+.button a{      
+    display: inline-block;
+    font-family: "FuturaPT";
+    background-color: blueviolet;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+.facults{
+    color:#fff;
+    margin-top: 50px;
+    margin-left:50px;
+    font-size:28px;
+    
+}
+.facults a{
+    
+    font-family:"FuturaPT";
+    font-weight: 500;
+    
+    
+
+}
+.test2{
+
+    font-family: "FuturaPT";
+    font-weight: 500;
+    margin-top: auto;
+    text-align: left;
+    margin-left:50px;
+    width: 400px;
+    font-size:19px;
+    
+}
+
+.class{
+    color:#fff;
+    font-family: "FuturaPT";
+    font-weight: 500;
+    margin-top: auto;
+    margin-left:50px;
+    font-size:28px;
+    
+
+    
+}
+.cheslo{
+    font-family: "FuturaPT";
+    font-weight: 500;
+    margin-left: 130px;
+    font-size:33px;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    width:130px;
+    height: 90px;
+    
+}
+.vuzs{
+    color:#fff;
+    font-family: "FuturaPT";
+    font-weight: 500;
+    padding: 5px;
+    margin-left:50px;
+    font-size:28px;
+
+}
+
+.univers{
+    font-family: "FuturaPT";
+    font-weight: 500;
+    margin-top:0px;
+    text-align: left;
+    margin-left:50px;
+    width: 400px;
+    font-size:19px;
+}
+
+.pop_up{
+    display: none;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background-color: rgba(0,0, 0, .8);
+    z-index:2;
+
+}
+
+.pop_up_container{
+    display: flex;
+    width:100%;
+    height:100%;
+
+}
+
+.pop_up_body{
+    font-family: "FuturaPT";
+    font-weight: 500;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 15px 110px 15px;
+    position: relative;
+
+}
+
+.pop_up_body p{
+    font-size:28px;
+    font-family: "FuturaPT";
+    font-weight: 500;
+    color:#222620;
+    margin-bottom:40px;
+
+}
+
+.pop_up_close{
+    position: absolute;
+    top:15px;
+    right:15px;
+    font-size:21px;
+    cursor:pointer;
+}
+
+.pop_up.active{
+    display:block;
+}
+
+
+.unic_desigh{
+    font-family: "FuturaPT";
+    font-weight: 500;
+}
+
+.fac_desigh{
+    font-family: "FuturaPT";
+    font-weight: 500;
+}
+
+.choice_fac{
+    font-family: "FuturaPT";
+    font-weight: 500;
+}
+
+.shapka{
+    margin-bottom: 50px;
+
+}
+
+.result{
+    /* display: inline-block;
+    font-family: "FuturaPT";
+    font-weight: 500;
+    font-size: 60px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto; */
+    display: inline-block;
+    font-family: "FuturaPT";
+    
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+    font-weight: 500;
+    font-size: 50px;
+    
+}
+.chances{
+    
+    margin-bottom: 30px;
+    width:250px;
+    height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 125px;
+    border: 7px solid black;
+    
+}
+
+.recommends{
+    /* font-family: "FuturaPT";
+    
+    text-align: center;
+    width:250px;
+    display: inline-block;
+    font-family: "FuturaPT";
+    background-color: rgb(128, 24, 226);
+    height: 70px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 25px; */
+    display: inline-block;
+    font-family: "FuturaPT";
+    background-color: blueviolet;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+
+
+
+.image{
+    margin-top:10px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+
+
+
+
+</head>
+<body>
+    
+    
+   
+    <div id="main">
+        <form name="test" method="post" action="input1.php">
+            <p><b>Выбери вуз:</b><br>
+    
+    
+       
+        <select id="university">
+            <option>ИТМО</option>
+            <option>МАИ</option>
+            <option>МГИМО</option>
+            <option>МГУ</option>
+            <option >МГЮА</option>
+            <option >МФТИ</option>
+            <option >НГУ</option>
+            <option >НИУ ВШЭ Московский кампус</option>
+            <option>НИУ ВШЭ Нижегородский кампус</option>
+            <option>РТУ МИРЭА</option>
+            <option>СПБГУ</option>
+            <option>Сеченовский университет</option>
+            <option>ТюмГМУ</option>
+            <option>Финансовый университет при Правительстве Российской Федерации</option>
+            
+        </select>
+    
+    
+    
+        <form name="test" method="post" action="input1.php">
+            <p><b>Выбери факультет:</b><br>
+    
+        <select id="faculty">
+            <option >Бизнес-информатика</option>
+            <option >БиоФак</option>
+            <option >ВШГА</option>
+            <option >Вычислительные машины</option>
+            <option >ЖурФак</option>
+            <option >ИНБИКСТ</option>
+            <option >Изящные искусства</option>
+            <option >Институт тонких химических технологий им. М.В.Ломоносова</option>
+            <option >Клиническая психология</option>
+            <option >Лазерные технологии</option>
+            <option >МЭО</option>
+            <option >Международные отношения</option>
+            <option >Менеджмент</option>
+            <option >Мехмат</option>
+            <option >Педиатрический</option>
+            <option >Правовой консалтинг</option>
+            <option >Радиотехника и кибернетика</option>
+            <option >Управление бизнесом</option>
+            <option >Управление проектами</option>
+            <option >ФРЭЛА</option>
+            <option >Факультет искусств</option>
+            <option >Факультет коммуникаций, медиа и дизайна</option>
+            <option >Факультет социальных наук</option>
+            <option >Факультет фундаментальной физико-химической инженерии</option>
+            <option >Фармацевтический факультет</option>
+            <option >Физико-химический факультет</option>
+            <option >Филологический</option>
+            <option >Философский</option>
+            
+        </select>
+    
+    
+    
+        <form name="test" method="post" action="input1.php">
+            <p><b>Введите сумму ваших баллов:</b><br>
+                <input type="text" id="scores" size="3">
+    
+    
+        </div>
+    
+    
+
+        <button class="btn btn-primary" ">
+
+            Подсчитать вероятность
+
+        </button>
+
+
+
+
+
+
+        <div class="modal">
+            <div class="modal-window">
+                <div class="modal-header">
+                    <h3 class="title">
+                        Твои результаты
+                    </h3>
+                </div>
+                <div class="modal-body">
+
+                    <p id="results">
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <p id="recommendations">
+
+                    </p>
+                    <div class="control">
+                        <button class="btn btn-primary">
+                            <p> ОК</p>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    
+        <script >
+   
