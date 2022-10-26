@@ -1,7 +1,0 @@
-api_key = "AIzaSyDLKKl0_O0wugjERw9m7e0wcpQe-qDjVm0"
-
-client_id = "598878448277-ecu5gk0rfp2d2ojsc2afi0irqb37nqp1.apps.googleusercontent.com"
-
-client_secret = "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"
-
-json_url = "https://script.googleusercontent.com/macros/echo?user_content_key=b89cw-2IE8e6HSPyO8zSXOjEIv71UvsDhRBCR1gkh6lT-k2135_rYFDRmAbzVskhJDc8_WABmj67YKx7yYKJiySpL_I9ogn2m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnPl8lSlWHemkV6ZqeQPP4215q2SRG_paC61rc0ScP01KpoD3UnnT1ntZWwz1_JhFapuysVsbuBeId0TLq9w6ptbVoVs1IT-z7A&lib=M4C_ZogAjNXLhWJNbPgO-j8Ve6tFvFPmZ"
