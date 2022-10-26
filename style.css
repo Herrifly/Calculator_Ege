@@ -188,13 +188,7 @@ body{
 }
 
 .result{
-    /* display: inline-block;
-    font-family: "FuturaPT";
-    font-weight: 500;
-    font-size: 60px;
-    vertical-align: middle;
-    text-align: center;
-    margin: auto; */
+   
     display: inline-block;
     font-family: "FuturaPT";
     
@@ -219,18 +213,7 @@ body{
 }
 
 .recommends{
-    /* font-family: "FuturaPT";
     
-    text-align: center;
-    width:250px;
-    display: inline-block;
-    font-family: "FuturaPT";
-    background-color: rgb(128, 24, 226);
-    height: 70px;
-    border-radius: 15px;
-    text-decoration: none;
-    color:#fff;
-    font-size: 25px; */
     display: inline-block;
     font-family: "FuturaPT";
     background-color: blueviolet;
